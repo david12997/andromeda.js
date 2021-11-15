@@ -1,0 +1,14 @@
+{
+  "name": "andromedajs",
+  "version": "1.0.0",
+  "description": "primera prueba andromeda js",
+  "main": "andromeda.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "david castañeda",
+  "license": "MIT",
+  "dependencies": {
+ 
+  }
+}

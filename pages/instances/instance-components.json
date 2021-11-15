@@ -1,0 +1,93 @@
+[
+    
+    {
+        "a_navbar":{
+
+            "id":"a-navbar", 
+            "type":{"component":1},
+            "data":{
+                
+                "mobile":{
+            
+                    "icon":{
+                        "name":"bars",
+                        "type":"fas",
+                        "color":"#004E7D",
+                        "size":"25px"
+                    },
+                    "icon2":{
+                        "name":"angle-right",
+                        "type":"fas",
+                        "color":"#004E7D",
+                        "size":"35px"
+                    }
+                },
+                "desktop":{
+
+                    "icon":{
+                        "name":"store",
+                        "type":"fas",
+                        "color":"#004E7D",
+                        "size":"17px"
+                    },
+                    "icon2":{
+                        "name":"search-location",
+                        "type":"fas",
+                        "color":"#004E7D",
+                        "size":"17px"
+                    },
+                    "icon3":{
+                        "name":"shopping-bag",
+                        "type":"fas",
+                        "color":"#004E7D",
+                        "size":"17px"
+                    },
+                    "icon4":{
+                        "name":"cart-plus",
+                        "type":"fas",
+                        "color":"#004E7D",
+                        "size":"20px"
+                    }
+                    
+                },
+                "all":{
+            
+                    "logo":"./assets/store001/logo-ejemplo.png",
+                    "placeholder":" Buscar producto",
+                    "links":{
+
+                        "home":["Inicio","/"],
+                        "store":["Tienda  ","/tienda"],
+                        "tracker":["Rastreador  ","/rastreador"]
+                    }
+            
+                }
+    
+            },
+            "styles_mobile":{
+        
+                "container":"background:#E4F1F2;",
+                "logo":"",
+                "img":"",
+                "buscador":"",
+                "form":"",
+                "input":"border:0;box-shadow:0px 0px 10px rgba(0,0,0,0.1);",
+                "links":"",
+                "icono_bars":"",
+                "menu_bars":""
+            },
+            "styles_desktop": {
+        
+                "container":"",
+                "logo":"",
+                "img":"",
+                "buscador":"",
+                "input":"font-size:16px;",
+                "form":"",
+                "links":"",
+                "a_links":"color:#004E7D;"
+            }
+        }
+    }
+
+]
