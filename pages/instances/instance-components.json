@@ -4,7 +4,7 @@
         "a_navbar":{
 
             "id":"a-navbar", 
-            "type":{"component":1},
+            "type":{"component":2},
             "data":{
                 
                 "mobile":{

@@ -1,7 +1,8 @@
+'use strict';
 
-function A_navbar_css(shadow, styles_mobile, styles_desktop){
+function Styles_component_1(styles_mobile, styles_desktop){
 
-    return  shadow.innerHTML = `
+    return `
         
     <style>
 
@@ -330,5 +331,17 @@ function A_navbar_css(shadow, styles_mobile, styles_desktop){
    
    `;
 }
+
+
+function A_navbar_css(shadow, styles_mobile, styles_desktop, type){
+
+    if(type === 1)  return  shadow.innerHTML = Styles_component_1(styles_mobile, styles_desktop);
+    if(type === 2)  return  shadow.innerHTML = '';
+    if(type === 3)  return  shadow.innerHTML = '';
+    
+}
+
+
+
 
 export default A_navbar_css;

@@ -9,8 +9,8 @@ function Components(components){
             render: `
                 <a-navbar 
                 
-                    id="a-navbar" 
-                    type="{'component':1}"
+                    id="${components[0].a_navbar.id}" 
+                    type="{'component':${components[0].a_navbar.type.component}}"
                     data="${JSON.stringify(components[0].a_navbar.data).replace(/"/g, "'").replace(/\s+/g,' ')}" 
                     styles-mobile="${JSON.stringify(components[0].a_navbar.styles_mobile).replace(/"/g, "'").replace(/\s+/g,' ')}" 
                     styles-desktop="${JSON.stringify(components[0].a_navbar.styles_desktop).replace(/"/g, "'").replace(/\s+/g,' ')}">

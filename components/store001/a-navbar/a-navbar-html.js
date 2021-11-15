@@ -100,14 +100,14 @@ function A_navbar_html(type,data){
 
         case  2:
             
-            return ``;
+            return `<h1>Component 2</h1>`;
 
         break;
 
 
         case  3:
             
-            return ``;
+            return `<h1>Component 3</h1>`;
 
         break;
 

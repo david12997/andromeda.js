@@ -42,8 +42,8 @@ class A_navbar extends HTMLElement{
 
 
     Styles(){
-
-        return  A_navbar_css(this.shadow,this.styles_mobile,this.styles_desktop);
+        
+        return  A_navbar_css(this.shadow,this.styles_mobile,this.styles_desktop,this.type.component);
 
 
     }
@@ -91,6 +91,23 @@ class A_navbar extends HTMLElement{
     
         `;
 
+       switch (this.type.component) {
+
+            case 1:
+
+                this.Events_component_1();
+
+            break;
+
+           default:
+               break;
+       }
+        
+    }
+
+
+    Events_component_1(){
+
         //open menu mobile
         let btn_bars = this.shadow.querySelector('.links-mobile');
         btn_bars.addEventListener('click',this.Functions.bind(this,'open_menu_mobile'));
@@ -99,9 +116,10 @@ class A_navbar extends HTMLElement{
         //close menu mobile
         let btn_cerrar_menu = this.shadow.querySelector('.cerrar-pantalla1');
         btn_cerrar_menu.addEventListener('click',this.Functions.bind(this,'close_menu_mobile'));
+
+
     }
-
-
+    
 
 
     connectedCallback(){
